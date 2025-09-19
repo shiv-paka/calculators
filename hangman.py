@@ -11,3 +11,4 @@ for i in range(len(ranPick)):
         print(wrdInp)
     else :
         print(f"Try again only {i-1} guesses left!")
+        break
