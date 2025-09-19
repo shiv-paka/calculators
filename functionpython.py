@@ -61,3 +61,7 @@ checkLst=[1,2,3,4,5,6,7,8,9,10]
 new_lst3=list(filter(check,checkLst))
 print(new_lst3)
 
+personLst=["rahul","ramu","chintu","kalyan","mauli","akhil","chimtu","bhai","mams"]
+search=input("Enter username please: ").lower().strip()
+new_user_list=list(filter(lambda str: search in str,personLst))
+print(new_user_list)
