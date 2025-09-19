@@ -38,3 +38,26 @@ print("============================")
 
 new_list1=list(map(lambda lcube: lcube*lcube*lcube,nList))
 print(new_list1)
+
+print()
+print("========================================================")
+remNew=list(map(lambda num:num%3,lst12))
+print(remNew)
+
+lst=[1,2,3,4,5,6,7,8,9,0]
+new_list=[]
+new_list2=[]
+for ele in lst:
+  if ele%2==0:
+    new_list.append(ele)
+  
+  else:
+    new_list2.append(ele)
+print(new_list)
+print(new_list2)
+
+check = lambda num:num%2==0
+checkLst=[1,2,3,4,5,6,7,8,9,10]
+new_lst3=list(filter(check,checkLst))
+print(new_lst3)
+
